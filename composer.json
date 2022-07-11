@@ -1,0 +1,23 @@
+{
+    "name": "example/php-package-template",
+    "description": "",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://example.com",
+    "support": {
+        "issues": "https://example.com/issues",
+        "source": "https://example.com"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.x-dev"
+        }
+    }
+}
